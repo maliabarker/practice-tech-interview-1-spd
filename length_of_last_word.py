@@ -37,12 +37,13 @@ def lengthOfLastWord(s):
 
     word_arr = s.split()
     return(len(word_arr[-1]))
-    print(word_arr)
-    longest_word = ''
-    for word in word_arr:
-        if len(word) > len(longest_word):
-            longest_word = word
-    return len(longest_word)
+
+    # print(word_arr)
+    # longest_word = ''
+    # for word in word_arr:
+    #     if len(word) > len(longest_word):
+    #         longest_word = word
+    # return len(longest_word)
 
 
 str_1 = "Hello World"
